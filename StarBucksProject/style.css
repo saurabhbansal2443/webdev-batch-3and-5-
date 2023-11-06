@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.border{
+    border: 2px solid red;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txtNone{
+    text-decoration: none;
+    color: grey;
+}
+
+.active{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #1e3932;
+}
+.navbar{
+    width: 100%;
+    height: 7vh;
+    border: 2px solid red ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navOptions{
+    width: 40%;
+    justify-content: space-evenly;
+    font-size: 1.4rem; 
+    text-decoration: none;
+}
+
