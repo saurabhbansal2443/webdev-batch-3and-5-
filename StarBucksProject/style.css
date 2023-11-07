@@ -120,3 +120,47 @@ height: 80%;
  height: 54%;
  border-radius: 50%;
 }
+
+.savings{
+    height: 25vh;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url("./images/IMAGE\ 2023-11-07\ 19:40:18.jpg");
+    justify-content: space-around;
+}
+
+.flagImage{
+    width: 10%;
+    height: 70%;
+    margin-top: 0%;
+}
+
+.savingText{
+ font-size: x-large;
+ height: 100%;
+ width: 65%;
+ padding-top: 0.3%;
+ line-height: 30px;
+}
+
+.savingbtn{
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 20%;
+}
+
+.kmBtn{
+  height: 25%;
+  width: 60%;
+  background-color: #00754a;
+  color: white;
+  border: none;
+  border-radius: 3vh;
+  margin-bottom: 5%;
+  margin-right: 10%;
+
+}
+
