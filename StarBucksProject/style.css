@@ -242,7 +242,7 @@
 
 .baristasection{
     width: 100%;
-    height: 40vh;
+    height: 35vh;
     margin-top: 15vh;
     background-color: lightgrey;
 }
@@ -251,7 +251,7 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
-    height: 20%;
+    height: 15%;
     width: 70%;
     margin-left: 15%; 
 }
@@ -293,7 +293,48 @@
     height: 40%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     justify-content: center;
     margin-left: 3%;
+}
+
+.priceAndAdditem{
+    margin-top: 7%;
+    width: 95%;
+    margin-left: 5%;
+}
+
+.learningPart{
+    height: 50vh;
+    width: 100%;
+    margin-top: 15vh;
+    background-color: lightgrey;
+}
+
+.coffebeanImage{
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 1%;
+    background-image: radial-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)), url(./images/14.jpg);
+    background-size: cover;
+    border-radius: 1vh;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+   padding-left: 3%;
+}
+
+.coffebeanImage:hover{
+    background-image: radial-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.5)), url(./images/14.jpg);
+}
+
+.learnMore{
+    width:17%;
+    background-color: lightgray;
+    border-radius: 2vh;
+    border: none;
+    height: 10%;
+    font-size: large;
 }
