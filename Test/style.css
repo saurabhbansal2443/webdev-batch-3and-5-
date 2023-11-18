@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+.border{
+    border: 2px solid red ;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(222, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainContainer{
+    width: 95%;
+    height: 85vh;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-direction: column;
+}
+
+.firstPart{
+  height: 47%;
+  width: 97%;
+ 
+}
+
+.secondPart{
+    height: 47%;
+    width: 97%;
+    background-image: url(https://cdn.pixabay.com/photo/2023/07/01/15/46/flowers-8100386_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    height: 50%;
+    width: 30%;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.firstPart{
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.options{
+    height: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textPart{
+    width: 50%;
+    height: 75%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
