@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 2px solid red ;
+        }
+        .black{
+            background-color: black;
+        }
+        .blue{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <br>
+    <button class="btn"> click </button>
+    <h1 id="h"> I am a heading tag </h1>
+    <input id="in">
+</body>
+<script>
+    
+    let box =  document.querySelector(".box");
+    let button = document.querySelector(".btn");
+
+    let h1tag = document.querySelector("#h");
+
+    let intag = document.querySelector("#in");
+
+
+
+    intag.addEventListener("keydown" , function(event){
+        console.log(event.key);
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function changeText (){
+        h1tag.innerHTML = "This is chnaged by js ";
+    }
+
+    h1tag.addEventListener("click",changeText)
+
+
+    function btnclick(){
+        box.classList.toggle("blue");
+    }
+
+    button.addEventListener("click",btnclick);
+
+</script>
+</html>
